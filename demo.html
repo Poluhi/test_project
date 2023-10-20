@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демо</title>
+</head>
+
+<body>
+    <a href="index.html">Перейти на главную</a>
+    <p>
+        <a href="https://delfa72.ru/" target="_blank">
+            <!-- width - ширина; height - высота  -->
+            <img src="images/logo.png" alt="Логотип Дельфы" width="300" title="Переход на страницу Дельфы">
+        </a>
+    </p>
+    <form action="">
+        <p>
+            Логин <input type="user" placeholder="Ваше имя">
+            <input type="submit" value="Отправить">
+        </p>
+        <p>
+            Пароль <input type="password" placeholder="Введите пароль">
+        </p>
+        <h3>Укажите интересы</h3>
+        <p>
+            <label><input type="checkbox" name="interest" value="sport"> Спорт</label>
+            <label><input type="checkbox" name="interest" value="programming"> Програмирование</label>
+            <label><input type="checkbox" name="interest" value="games"> Игры</label>
+        </p>
+        <h3>Способ оплаты</h3>
+        <p>
+            <select name="city">
+                <label><input type="radio" name="pay" value="card"> Карта</label>
+                <label><input type="radio" name="pay" value="qr"> Код</label>
+                <label><input type="radio" name="pay" value="cash"> Наличные</label>
+            </select>
+        </p>
+        <p>
+            <textarea name="comment" cols="30" rows="10" placeholder="Введите коментарий"> </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+            <button type="reset">Отчистить</button>
+        </p>
+    </form>
+</body>
+
+</html>
